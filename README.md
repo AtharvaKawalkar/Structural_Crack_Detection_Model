@@ -18,10 +18,31 @@ This project presents a structural crack detection model utilizing deep learning
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/AtharvaKawalkar/Structural_Crack_Detection_Model
-   cd structural-crack-detection
+
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd Structural_Crack_Detection_Model
+
+3. **Install Required Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   cd frontend
+   npm install
+   cd ..
+
+4. **Run the Backend Server**:
+   ```bash
+   uvicorn main:app --reload
+
+4. **Run the Frontend**:
+   ```bash
+   cd frontend
+   npm run start
 
 ### Future Enhancements:
 - **Dataset Expansion**: Incorporate more diverse images to improve model robustness.
 - **Real-Time Detection**: Develop capabilities for real-time crack detection using video feeds.
 - **Model Optimization**: Further optimize the model for faster inference and lower latency on various devices.
 - **Cloud Deployment**: Deploy the backend and frontend on cloud platforms for wider accessibility.
+
+This project aims to provide a reliable tool for structural health monitoring, contributing to the prevention of potential structural failures through early crack detection.
